@@ -1,0 +1,18 @@
+.fieldText{
+    margin: 24px 0;
+    }
+
+.fieldText label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.fieldText input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 18px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
