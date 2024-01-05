@@ -1,14 +1,10 @@
-.fieldText{
-    margin: 24px 0;
-    }
-
-.fieldText label{
+.selectBar label{
     display: block;
     margin-bottom: 8px;
     font-size: 20px;
 }
 
-.fieldText input{
+.selectBar select{
     width: 100%;
     box-sizing: border-box;
     font-size: 18px;

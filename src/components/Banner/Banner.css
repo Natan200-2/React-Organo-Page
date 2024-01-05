@@ -1,11 +1,14 @@
 .banner{
     text-align: center;
-    margin: 5px;
+    width: 100%;
 }
 
 .banner img{
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100%;
-    width: 50rem;
+    width: 60rem;
     height: 20rem;
+    padding: 12px;
+    background-color: #7FC7D9;
+    border-radius: 20px;
 }
