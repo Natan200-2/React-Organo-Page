@@ -6,14 +6,6 @@ import { useState } from "react";
 
 const Form = (props) => {
 
-    const list = [
-        'Programação',
-        'UX/UI Design',
-        'Devops',
-        'FrontEnd',
-        'BackEnd'
-      ]
-
     const [name, setName] = useState('')
     const [cargo, setCargo] = useState('')
     const [image, setImage] = useState('')
@@ -53,7 +45,7 @@ const Form = (props) => {
                  aoAlterado={valor => setImage(valor)}
                  />
                 <SelectField obrigatorio={true} 
-                items={list}
+                items={props.teams}
                 value={team}
                 aoAlterado={valor => setTeam(valor)}
                 />
