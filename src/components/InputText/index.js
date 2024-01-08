@@ -1,14 +1,19 @@
+import { useState } from 'react'
 import './InputText.css'
 
-const aoDigitar = (e) => {
-    console.log(e.target.value)
-}
 
 const InputText = (props) => {
+
+    const aoDigitar = (e) => {
+
+        props.aoAlterado(e.target.value)
+
+    }
+
     return (
         <div className="fieldText">
             <label>{props.title}</label>
-            <input onChange={aoDigitar} required={props.obrigatorio} placeholder={props.placeholder}/>
+            <input value={props.valor} onChange={aoDigitar} required={props.obrigatorio} placeholder={props.placeholder}/>
         </div>
     )
 }
