@@ -20,13 +20,18 @@ const Form = (props) => {
             image,
             team
         })
+
+        setName('')
+        setCargo('')
+        setImage('')
+        setTeam('')
     }
 
 
     return (
         <section className="forms">
             <form onSubmit={onSave}>
-                <h2>Por favor preencha suas informações</h2>
+                <h2>Por favor preencha suas informações para gerar o card</h2>
                 <InputText obrigatorio={true}
                  title="Nome" 
                  placeholder="Digite seu nome..." 
@@ -40,7 +45,7 @@ const Form = (props) => {
                 aoAlterado={valor => setCargo(valor)}
                 />
                 <InputText title="Imagem"
-                 placeholder="Insira sua imagem..." 
+                 placeholder="Insira o link de sua foto..." 
                  value={image}
                  aoAlterado={valor => setImage(valor)}
                  />

@@ -13,7 +13,7 @@ const InputText = (props) => {
     return (
         <div className="fieldText">
             <label>{props.title}</label>
-            <input value={props.valor} onChange={aoDigitar} required={props.obrigatorio} placeholder={props.placeholder}/>
+            <input value={props.value} onChange={aoDigitar} required={props.obrigatorio} placeholder={props.placeholder}/>
         </div>
     )
 }
