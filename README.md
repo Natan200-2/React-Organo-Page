@@ -6,6 +6,8 @@ Com ele é possível cadastrar as informações do colaborador e gerar um card d
 
 Para vê-lo em ação, acesse o link: https://react-organo-page.vercel.app/
 
+O site foi criado em conjunto com o curso Alura "React: desenvolvendo com JavaScript"
+
 ## Requisitos
 Para instalação e utilização do projeto em sua máquina é necessário ter instalado NodeJs e, a partir do Node, instalar create react app
 
